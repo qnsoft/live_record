@@ -40,7 +40,7 @@ var ExtraConfig struct {
 
 func init() {
 	InstallPlugin(&PluginConfig{
-		Name:   "Record",
+		Name:   "LiveRecord",
 		Config: &config,
 		Run:    run,
 		HotConfig: map[string]func(interface{}){
